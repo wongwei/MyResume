@@ -47,8 +47,7 @@
 \newcommand{\reslheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{0.8\textwidth-2\fboxsep}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{\textwidth-5mm}{l@{\extracolsep{\fill}}r}
-    \textbf{#1} & #2 \\
-    \textit{#3} & #4 \\
+    \textbf{#1} \textit{#3} & #4 \quad #2 \\
 \end{tabular*}\vspace{-6pt}}
 
 % \newcommand{\ressubsingleheading}[3]{
